@@ -1,0 +1,16 @@
+.display {
+    grid-column: span 4;
+    background-color: #d3d3d380;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    
+    overflow: hidden;
+}
+.value{
+    font-size: 32px;
+}
+.operation{
+    font-size: 20px;
+}
