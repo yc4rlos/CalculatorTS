@@ -6,7 +6,7 @@ export default function Display(props: any) {
             <div className="value"> 
             {props.value}
             </div>
-            <div className="operation">
+            <div className="currentOperation">
             {props.operation}
             </div>
         </div>

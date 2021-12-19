@@ -11,6 +11,7 @@
 .value{
     font-size: 32px;
 }
-.operation{
-    font-size: 20px;
+.currentOperation{
+    margin-left: 10px;
+    font-size: 15px;
 }
