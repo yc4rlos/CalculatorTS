@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    src: url('./fonts/RobotoMono-Thin.ttf');
-    font-family: 'RobotoMono', monospace;
     display: flex;
     flex-direction: column;
     height: 100vh;
