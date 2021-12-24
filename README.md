@@ -2,6 +2,7 @@
 
 - TypeScript
 - React.JS
+- Styled Components
 
 ## Requirements
 

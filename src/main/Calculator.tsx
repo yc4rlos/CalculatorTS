@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button, Display } from '../components/index';
-import './Calculator.css';
+import * as S from './styled';
 
 export default function Calculator() {
 
@@ -93,7 +93,7 @@ export default function Calculator() {
         }
     }
     return (
-        <div className="calculator">
+        <S.Calculator className="calculator">
             <Display value={initialState.displayValue} operation={initialState.operation} />
             <Button label="AC" operation triple click={() => clear()} />
             <Button label="/" operation click={() => setOperation("/")} />
@@ -112,6 +112,6 @@ export default function Calculator() {
             <Button label="0" double click={() => addDigitIn("0")} />
             <Button label="." click={() => addDigitIn(".")} />
             <Button label="=" operation click={() => setOperation("=")} />
-        </div>
+        </S.Calculator>
     )
 }

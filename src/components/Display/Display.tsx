@@ -1,14 +1,14 @@
-import './Display.css'
+import * as S from './styled';
 
 export default function Display(props: any) {
     return (
-        <div className="display">
-            <div className="value"> 
+        <S.Display>
+            <S.Value className="value"> 
             {props.value}
-            </div>
-            <div className="currentOperation">
+            </S.Value>
+            <S.CurrentOperation className="currentOperation">
             {props.operation}
-            </div>
-        </div>
+            </S.CurrentOperation>
+        </S.Display>
     )
 }
